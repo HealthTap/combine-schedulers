@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
     s.author       = { 'Bofei Zhu' => 'bofei.zhu@healthtap.com' }
     s.source       = { :git => 'https://github.com/HealthTap/combine-schedulers.git', :tag => s.version }
     s.swift_versions = ['5.1']
-    s.source_files = 'Sources/CombineSchedulers/*.swift'
+    s.source_files = 'Sources/CombineSchedulers/**/*.swift'
     s.dependency 'XCTestDynamicOverlay'
   
     s.ios.deployment_target = '13.0'
